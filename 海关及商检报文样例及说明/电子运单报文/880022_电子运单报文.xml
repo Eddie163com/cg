@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Manifest>
+  <Head>
+	<!-- 报文编号  -->
+	<MessageID></MessageID>
+	<!-- 报文类型 （默认：880022-电子运单）  -->
+	<MessageType>880022</MessageType>
+	<!-- 接入企业备案号  -->
+	<SenderID></SenderID>
+	<!-- 报文日期  -->
+	<SendTime></SendTime>
+	<!-- 版本 默认为1.0  -->
+	<Version>1.0</Version>
+  </Head>
+  <Declaration>
+ 	 <EWayBills>
+		<EWayBill>
+			<!-- 订单编号  -->
+			<OrderId></OrderId>
+			<!-- 进出口标识  -->
+			<IEFlag></IEFlag>
+			<!-- 物流企业代码  -->
+			<EntRecordNo></EntRecordNo>
+			<!-- 物流企业名称  -->
+			<EntRecordName></EntRecordName>
+			<!-- 企业运单编号  -->
+			<WayBillNo></WayBillNo>
+			<!-- 申报类型  -->
+			<DeclareType></DeclareType>
+			<!-- 物流状态  -->
+			<LogisticsStatus></LogisticsStatus>
+			<!-- 运费  -->
+			<Freight></Freight>
+			<!-- 运费币制  -->
+			<FreightCurr></FreightCurr>
+			<!-- 保价费  -->
+			<ValuationFee></ValuationFee>
+			<!-- 保价费币制  -->
+			<ValuationFeeCurr></ValuationFeeCurr>
+			<!-- 净重  -->
+			<NetWt></NetWt>
+			<!-- 毛重  -->
+			<GrossWt></GrossWt>
+			<!-- 件数  -->
+			<Num></Num>
+			<!-- 商品信息  -->
+			<GoodInfo></GoodInfo>
+			<!-- 收件人姓名 -->
+			<RecipientName></RecipientName>
+			<!-- 收件人所在国家代码  -->
+			<RecipientCountryCode></RecipientCountryCode>
+			<!-- 收件人省市区代码  -->
+			<RecipientProvincesCode></RecipientProvincesCode>
+			<!-- 收件人地址  -->
+			<RecipientDetailedAddress></RecipientDetailedAddress>
+			<!-- 收件人电话  -->
+			<RecipientPhone></RecipientPhone>
+			<!-- 发货人姓名  -->
+			<ShipperName></ShipperName>
+			<!-- 发货人所在国家代码  -->
+			<ShipperCountryCode></ShipperCountryCode>
+			<!-- 发货人省市区代码  -->
+			<ShipperProvincesCode></ShipperProvincesCode>
+			<!-- 发货人地址  -->
+			<ShipperDetailedAddress></ShipperDetailedAddress>
+			<!-- 发货人电话  -->
+			<ShipperPhone></ShipperPhone>
+			<!-- 包裹单号  -->
+			<NoticeNo></NoticeNo>
+			<!-- 备注  -->
+			<Note></Note>
+		</EWayBill>	
+	</EWayBills>
+  </Declaration>
+</Manifest>

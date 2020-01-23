@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<InternationalTrade>
+	<!--报文头-->
+	<Head>
+		<!-- 报文编号 -->
+		<MessageID>DS20140318001005</MessageID>
+		<!-- 报文类型 -->
+		<MessageType>881101</MessageType>
+		<!-- 报文发送者标识 -->
+		<Sender>GZEPORT001</Sender>
+		<!-- 报文接收人标识 -->
+		<Receiver>CIQ100100</Receiver>
+		<!-- 发送时间 -->
+		<SendTime>20140316151500</SendTime>
+		<!-- 业务类型 -->
+		<FunctionCode>100100</FunctionCode>
+		<!--版本 默认为1.0-->
+		<Version>1.0</Version>
+	</Head>
+	<!--报文体-->
+	<Declaration>
+		<!-- 商品备案头信息 -->
+		<GoodsRegHead>
+			<!-- 申报企业编号 -->
+			<CIQEntRegNo>DSCIQ001</CIQEntRegNo>
+			<!-- 代理申报企业编号 -->
+			<AgentEntNo>DAILI001</AgentEntNo>
+			<!--检验检疫机构-->
+			<OrgCode>440070</OrgCode>
+			<!-- 录入时间 -->
+			<InputDate>20140318151600</InputDate>
+			<!-- 操作方式：A-新增；M-修改；D-取消备案；（默认为新增） -->
+			<OpType>A</OpType>
+			<!-- 备注 -->
+			<Notes>无</Notes>
+
+		</GoodsRegHead>
+		<!--商品备案明细清单-->
+		<GoodsRegList>
+			<!--商品备案明细信息  -->
+			<GoodsContent>
+				<!--企业商品自编号  -->
+				<EntGoodsNo>GOODS0001</EntGoodsNo>
+				<!-- 电商平台商品备案申请号 -->
+				<EportGoodsNo>GN2013031300001</EportGoodsNo>
+				<!--HS编码  -->
+				<HSCode>20089990</HSCode>
+				<!--商品名称  -->
+				<GoodsName>苹果罐头</GoodsName>
+				<!--检验检疫备案备案编号，新增时为空  -->
+				<CIQGoodsNo>CIQGOOD001</CIQGoodsNo>
+				<!--型号规格  -->
+				<GoodsStyle>001001</GoodsStyle>
+				<!-- 标准计量单位kg -->
+				<StdUnit>035</StdUnit>
+				<!-- 第二计量单位箱 -->
+				<SecUnit>120</SecUnit>
+				<!--生产厂家  -->
+				<Manufactory>农贸有限公司</Manufactory>
+				<!--品牌  -->
+				<Brand>好水果</Brand>
+				<!-- 商品品质 -->
+				<Quality>好</Quality>
+				<!-- 品质证明 -->
+				<QualityCertify>有中国农贸水果检测表</QualityCertify>
+				<!-- 备注 -->
+				<Notes>无</Notes>
+			</GoodsContent>
+		</GoodsRegList>
+	</Declaration>
+</InternationalTrade>

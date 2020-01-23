@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Manifest>
+  <Head>
+	<!-- 报文编号  -->
+    <MessageID>8811012013110812340001</MessageID>
+    <!-- 业务类型（默认为0） -->
+	<FunctionCode>0</FunctionCode>
+	<!-- 报文类型 （默认为881104） -->
+    <MessageType>881101</MessageType>
+	<!-- 平台企业备案号 -->
+    <SenderID>EBOO51101312170001</SenderID>
+	<!-- 平台企业备案号 -->
+    <ReceiverID>EBOO51101312170001</ReceiverID>
+	<!-- 发送时间  -->
+    <SendTime>2013-09-23 16:16:00</SendTime>
+	<!-- 版本 默认为1.0 -->
+    <Version>1.0</Version>
+  </Head>
+  <Declaration>
+	<EBill>
+		<!-- 商品申请编号 -->
+		<EntInsideNo>12541252412</EntInsideNo>
+		<!-- 录入日期 -->
+		<InputDate>2013-09-23 16:16:00</InputDate>
+		<!-- 申报日期 -->
+		<DeclareDate>2013-09-23 16:16:00</DeclareDate>
+		<!-- 备注  -->
+		<Nots></Nots>
+	</EBill>
+	<EBillLists>
+		<EBillList>
+			<!-- 商品序号 -->
+			<GNo>1</GNo>
+			<!-- 操作类型 -->
+			<OperatingType>A</OperatingType>
+			<!--商品货号  -->
+			<CopGNo>001</CopGNo>
+			<!--商品名称  -->
+			<GName>001</GName>
+			<!--规格型号  -->
+			<GModel>001</GModel>
+			<!--商品编码  -->
+			<CodeTS>5901909110</CodeTS>
+			<!--申报计量单位  -->
+			<Unit>001</Unit>
+			<!-- 申报单价 -->
+			<DecPrice>100</DecPrice>
+			<!-- 行邮税号 -->
+			<PostTariffCode>00000000</PostTariffCode>
+			<!-- 毛重 -->
+			<GrossWt>521.23</GrossWt>
+			<!--净重  -->
+			<NetWt>400.23</NetWt>
+			<!-- 备注 -->
+			<Nots></Nots>
+			<!-- 进出口标志 -->
+			<IEFlag></IEFlag>
+			<!-- 行邮税名称 -->
+			<PostTariffName></PostTariffName>
+			<!-- 商品条形码 -->
+			<PostTariffName></PostTariffName>
+			<!-- 商品描述 -->
+			<GNote></GNote>
+			<!-- 商品条形码 -->
+			<BARCode></BARCode>
+		</EBillList>
+		<EBillList>
+			<!-- 商品序号 -->
+			<GNo>2</GNo>
+			<!-- 操作类型 -->
+			<OperatingType>A</OperatingType>
+			<!--商品货号  -->
+			<CopGNo>001</CopGNo>
+			<!--商品名称  -->
+			<GName>001</GName>
+			<!--规格型号  -->
+			<GModel>001</GModel>
+			<!--商品编码  -->
+			<CodeTS>5901909110</CodeTS>
+			<!--申报计量单位  -->
+			<Unit>001</Unit>
+			<!-- 申报单价 -->
+			<DecPrice>100</DecPrice>
+			<!-- 行邮税号 -->
+			<PostTariffCode>00000000</PostTariffCode>
+			<!-- 毛重 -->
+			<GrossWt>521.23</GrossWt>
+			<!--净重  -->
+			<NetWt>400.23</NetWt>
+			<!-- 备注 -->
+			<Nots></Nots>
+			<!-- 进出口标志 -->
+			<IEFlag></IEFlag>
+			<!-- 行邮税名称 -->
+			<PostTariffName></PostTariffName>
+			<!-- 商品条形码 -->
+			<PostTariffName></PostTariffName>
+			<!-- 商品描述 -->
+			<GNote></GNote>
+			<!-- 商品条形码 -->
+			<BARCode></BARCode>
+		</EBillList>
+	</EBillLists>
+  </Declaration>
+</Manifest>

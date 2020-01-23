@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InternationalTrade>
+	<!--报文头-->
+	<Head>
+		<!-- 报文编号 -->
+		<MessageID>DS20140318001002</MessageID>
+		<!-- 报文类型 -->
+		<MessageType>881104</MessageType>
+		<!-- 报文发送者标识 -->
+		<Sender>GZEPORT001</Sender>
+		<!-- 报文接收人标识 -->
+		<Receiver>ICQ100100</Receiver>
+		<!-- 发送时间 -->
+		<SendTime>20140317151500</SendTime>
+		<!-- 业务类型 -->
+		<FunctionCode>100100</FunctionCode>
+		<!--版本 默认为1.0-->
+		<Version>1.0</Version>
+	</Head>
+	<!--报文体-->
+	<Declaration>
+		<!-- 进境清单头信息 -->
+		<ImportHead>
+			<!-- 申报企业备案编号 -->
+			<CIQEntRegNo>DSCIQ001</CIQEntRegNo>
+			<!-- 代理申报企业备案编号 -->
+			<AgentEntNo>DAILI001</AgentEntNo>
+			<!-- 检验检疫机构 -->
+			<OrgCode>320860</OrgCode>
+			<!-- 收件人姓名 -->
+			<ConsigneeName>王丽丽</ConsigneeName>
+			<!-- 收件人地址 -->
+			<ConsigneeAddr>广州三元里</ConsigneeAddr>
+			<!-- 收件人证件号 -->
+			<ConsigneeIdNo>41142219800124351</ConsigneeIdNo>
+			<!-- 录入日期 -->
+			<InputDate>20140315111100</InputDate>
+			<!-- 企业进境自编号 -->
+			<EntImportNo>JINJIN001</EntImportNo>
+			<!-- 平台进境受理编号 -->
+			<EPortImportNo>IP2013031501234</EPortImportNo>
+			<!-- 检验检疫进境受理编号 -->
+			<CIQImportNo>CIQJINJIN001</CIQImportNo>
+			<!-- 操作方式：A-新增；M-修改；D-取消备案；（默认为新增） -->
+			<OpType>A</OpType>
+			<!--备注 -->
+			<Notes>no</Notes>
+		</ImportHead>
+		<!--进境清单明细信息-->
+		<ImportList>
+			<!--进境清单商品描述-->
+			<ImportContent>
+				<!--监管仓名称-->
+				<DischargePlace>440070</DischargePlace>
+				<!--商品批次号-->
+				<GoodsBatchNo>A20130305-32150</GoodsBatchNo>
+				<!--流水号-->
+				<Seq>120</Seq>
+				<!--检验检疫商品备案编号-->
+				<CIQGoodsNo>ICQGOOD001</CIQGoodsNo>
+				<!--商品名称-->
+				<GoodsName>苹果罐头</GoodsName>
+				<!--申报数量-->
+				<Qty>10.0000</Qty>
+				<!--申报单价-->
+				<DeclarePrice>1.3000</DeclarePrice>
+				<!--申报总价-->
+				<DeclareTotalAmount>13.0000</DeclareTotalAmount>
+				<!--毛重-->
+				<GrossWeight>3.0000</GrossWeight>
+				<!--净重-->
+				<NetWeight>2.0000</NetWeight>
+				<!--备注-->
+				<Notes>no</Notes>
+			</ImportContent>
+		</ImportList>
+	</Declaration>
+</InternationalTrade>

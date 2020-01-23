@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Manifest>
+  <Head>
+	<!-- 报文编号  -->
+    <MessageID>8811052013110812340001</MessageID>
+    <!-- 业务类型（默认为0） -->
+	<FunctionCode>0</FunctionCode>
+	<!-- 报文类型 （默认为881105） -->
+    <MessageType>881105</MessageType>
+	<!-- 平台企业备案号 -->
+    <SenderID>12512512</SenderID>
+	<!-- 平台企业备案号 -->
+    <ReceiverID>12512512</ReceiverID>
+	<!-- 发送时间  -->
+    <SendTime>2013-09-23 16:16:00</SendTime>
+	<!-- 版本 默认为1.0 -->
+    <Version>1.0</Version>
+  </Head>
+  <Declaration>
+	<EBill>
+		<!-- 企业内部编号 -->
+		<EntInsideNo>12541252412</EntInsideNo>
+		<!-- 申报地海关 -->
+		<MasterCustoms>5100</MasterCustoms>
+		<!-- 车牌号 -->
+		<VeName>粤A80808</VeName>
+		<!-- 装载日期 -->
+		<LoadingDate>2013-09-23 16:16:00</LoadingDate>
+		<!-- 备注  -->
+		<Note>广州天河</Note>
+		<!-- 录入日期 -->
+		<InputDate>2013-09-23 16:16:00</InputDate>
+		<!-- 总毛重  -->
+		<GrossWt>60</GrossWt>
+	</EBill>
+	<EBillLists>
+		<EBillList>
+			<!-- 序号 -->
+			<ListGNo>1</ListGNo>
+			<!-- 清单企业内部编号  -->
+			<ListEntNo>001</ListEntNo>
+			<!-- 收件人姓名 -->
+			<ReceiveName>张三</ReceiveName>
+			<!-- 清单商品序号 -->
+			<GNo>100</GNo>
+			<!-- 商品海关备案号 -->
+			<CustomsListNO >2014001</CustomsListNO>
+			<!-- 商品名称 -->
+			<GName>龙虾</GName>
+			<!-- 申报数量  -->
+			<Qty>30</Qty>
+		</EBillList>
+		<EBillList>
+			<!-- 序号 -->
+			<ListGNo>2</ListGNo>
+			<!-- 清单企业内部编号  -->
+			<ListEntNo>002</ListEntNo>
+			<!-- 收件人姓名 -->
+			<ReceiveName>张三</ReceiveName>
+			<!-- 清单商品序号 -->
+			<GNo>101</GNo>
+			<!-- 商品海关备案号 -->
+			<CustomsListNO >2014001</CustomsListNO>
+			<!-- 商品名称 -->
+			<GName>龙虾</GName>
+			<!-- 申报数量  -->
+			<Qty>30</Qty>
+		</EBillList>
+	</EBillLists>
+  </Declaration>
+</Manifest>

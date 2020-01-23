@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InternationalTrade>
+	<!--报文头-->
+	<Head>
+		<!--报文编号-->
+		<MessageID>DS20140318001001</MessageID>
+		<!--报文类型-->
+		<MessageType>881103</MessageType>
+		<!--报文发送者标识-->
+		<Sender>GZEPORT001</Sender>
+		<!--报文接收人标识-->
+		<Receiver>CIQ100100</Receiver>
+		<!--发送时间-->
+		<SendTime>20140317151500</SendTime>
+		<!--业务类型-->
+		<FunctionCode>100100</FunctionCode>
+		<!--版本号-->
+		<Version>1.0</Version>
+	</Head>
+	<!--报文体-->
+	<Declaration>
+		<!--进仓清单头信息-->
+		<InboundHead>
+			<!--申报企业备案编号-->
+			<CIQEntRegNo>DSCIQ001</CIQEntRegNo>
+			<!--代理申报企业编号-->
+			<AgentEntNo>DAILI001</AgentEntNo>
+			<!--检验检疫机构-->
+			<OrgCode>440070</OrgCode>
+			<!--收货人-->
+			<Consignee>王玲玲</Consignee>
+			<!--发货人-->
+			<Deliver>胡琴</Deliver>
+			<!--进境口岸-->
+			<InboundPort>5166</InboundPort>
+			<!--进境日期-->
+			<InBoundDate>20140317141500</InBoundDate>
+			<!--录入日期-->
+			<InputDate>20140317143000</InputDate>
+			<!--企业入仓自编号-->
+			<EntInboundNo>IB201403001</EntInboundNo>
+			<!--平台入仓编号-->
+			<EPortInboundNo>IB2013031501234</EPortInboundNo>
+			<!--检验检疫入仓编号-->
+			<CIQInboundNo>CIQIB001001</CIQInboundNo>
+			<!--货物存放地-->
+			<DischargePlace>44103210</DischargePlace>
+			<!-- 操作方式：A-新增；M-修改；D-取消备案；（默认为新增） -->
+			<OpType>A</OpType>
+			<!--备注-->
+			<Notes>进口入仓</Notes>
+		</InboundHead>
+		<!--进仓清单明细信息-->
+		<InboundList>
+			<!--进仓清单内容-->
+			<InboundContent>
+				<!--商品批次号 -->
+				<GoodsBatchNo>A20130305-32150</GoodsBatchNo>
+				<!-- 商品备案编号 -->
+				<CIQGoodsNo>CIQGOOD001</CIQGoodsNo>
+				<!--商品序号-->
+				<Seq>100</Seq>
+				<!-- HS编码 -->
+				<HSCode>20089990</HSCode>
+				<!-- 原产地、地区-->
+				<Original>中国香港</Original>
+				<!-- 采购方式地点 -->
+				<PurchasePlace>中国香港</PurchasePlace>
+				<!-- 商品名称 -->
+				<GoodsName>苹果罐头</GoodsName>
+				<!--型号规格  -->
+				<GoodsStyle>001001</GoodsStyle>
+				<!-- 标准计量单位KG -->
+				<StdUnit>035</StdUnit>
+				<!-- 第二计量单位箱-->
+				<SecUnit>120</SecUnit>
+				<!--生产厂家  -->
+				<Manufactory>农贸有限公司</Manufactory>
+				<!-- 标准数量 -->
+				<StdQty>1000.0000</StdQty>
+				<!-- 第二数量 -->
+				<SecQty>100.0000</SecQty>
+				<!-- 申报单价 -->
+				<DeclarePrice>1.2000</DeclarePrice>
+				<!-- 贸易国别（阿根廷） -->
+				<TradeCountry>032</TradeCountry>
+				<!-- 包装种类（纸箱） -->
+				<PackageType>4M</PackageType>
+				<!--  毛重-->
+				<GrossWeight>300.0000</GrossWeight>
+				<!--  净重-->
+				<NetWeight>200.0000</NetWeight>
+				<!--  备注-->
+				<Notes>no</Notes>
+			</InboundContent>
+		</InboundList>
+	</Declaration>
+</InternationalTrade>
+

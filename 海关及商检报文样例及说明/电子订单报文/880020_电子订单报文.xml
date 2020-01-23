@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Manifest>
+  <Head>
+    <!-- 报文编号  -->
+    <MessageID>880020201406271445000</MessageID>
+    <!-- 业务类型（默认为0）  -->
+    <FunctionCode>0</FunctionCode>
+    <!-- 报文类型 （默认为880020）  -->
+    <MessageType>880020</MessageType>
+    <!-- 接入企业备案号  -->
+    <SenderID>接入企业备案号</SenderID>
+    <!-- 报文日期  -->
+    <SendTime>报文日期</SendTime>
+    <!-- 版本 默认为1.0 -->
+    <Version>1.0</Version>
+  </Head>
+  <Declaration>
+	<EOrder>
+		<!-- 订单编号 -->
+		<OrderId></OrderId>
+		<!-- 进出口标识 -->
+		<IEFlag></IEFlag>
+		<!-- 订单状态 S-订单新增，C-订单取消 -->
+		<OrderStatus>S</OrderStatus>
+		<!-- 电商平台企业备案号（代码） -->
+		<EntRecordNo></EntRecordNo>
+		<!-- 电商平台企业名称 -->
+		<EntRecordName></EntRecordName>
+		<!-- 订单人姓名 -->
+		<OrderName></OrderName>
+		<!-- 订单人证件类型 -->
+		<OrderDocType></OrderDocType>
+		<!-- 订单人证件号 -->
+		<OrderDocId></OrderDocId>
+		<!-- 订单人电话 -->
+		<OrderPhone></OrderPhone>
+		<!-- 订单商品总额 -->
+		<OrderGoodTotal></OrderGoodTotal>
+		<!-- 订单商品总额币制 -->
+		<OrderGoodTotalCurr></OrderGoodTotalCurr>
+		<!-- 运费 -->
+		<Freight></Freight>
+		<!-- 运费币制 -->
+		<FreightCurr></FreightCurr>
+		<!-- 税款 -->
+		<Tax></Tax>
+		<!-- 税款币制 -->
+		<TaxCurr></TaxCurr>
+		<!-- 备注 -->
+		<Note></Note>
+		<!-- 订单日期，精确到秒 -->
+		<OrderDate></OrderDate>
+	</EOrder>
+	<EOrderGoods>
+		<EOrderGood>
+			<!-- 商品序号 -->
+			<GNo></GNo>
+			<!-- 子订单编号 -->
+			<ChildOrderNo></ChildOrderNo>
+			<!-- 电商商户企业备案号 -->
+			<StoreRecordNo></StoreRecordNo>
+			<!-- 电商商户企业名称 -->
+			<StoreRecordName></StoreRecordName>
+			<!-- 商品货号 -->
+			<CopGNo></CopGNo>
+			<!-- 商品单价 -->
+			<DecPrice></DecPrice>
+			<!-- 计量单位 -->
+			<Unit></Unit>
+			<!-- 商品数量 -->
+			<GQty></GQty>
+			<!-- 商品总价 -->
+			<DeclTotal></DeclTotal>
+			<!-- 备注 -->
+			<Notes></Notes>
+		</EOrderGood>	
+	</EOrderGoods>
+  </Declaration>
+</Manifest>

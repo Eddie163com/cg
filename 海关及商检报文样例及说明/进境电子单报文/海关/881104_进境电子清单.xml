@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Manifest>
+  <Head>
+	<!-- 报文编号  -->
+    <MessageID>8811042013110812340001</MessageID>
+    <!-- 业务类型（默认为0） -->
+	<FunctionCode>0</FunctionCode>
+	<!-- 报文类型 （默认为881104） -->
+    <MessageType>881104</MessageType>
+	<!-- 平台企业备案号 -->
+    <SenderID>12512512</SenderID>
+	<!-- 平台企业备案号 -->
+    <ReceiverID>12512512</ReceiverID>
+	<!-- 发送时间  -->
+    <SendTime>2013-09-23 16:16:00</SendTime>
+	<!-- 版本 默认为1.0 -->
+    <Version>1.0</Version>
+  </Head>
+  <Declaration>
+	<EBill>
+		<!-- 企业内部编号 -->
+		<EntInsideNo>12541252412</EntInsideNo>
+		<!-- 申报地海关 -->
+		<MasterCustoms>5100</MasterCustoms>
+		<!-- 账册编号 -->
+		<EmsNo>511215</EmsNo>
+		<!-- 收件人姓名 -->
+		<ReceiveName>张三</ReceiveName>
+		<!-- 收件人地址  -->
+		<ReceiveAddr>广州天河</ReceiveAddr>
+		<!--收件人证件号  -->
+		<ReceiveNo>0001</ReceiveNo>
+		<!-- 进出仓日期 -->
+		<DrDate>2013-09-23 16:16:00</DrDate>
+		<!-- 录入日期 -->
+		<InputDate>2013-09-23 16:16:00</InputDate>
+		<!-- 备注  -->
+		<Nots></Nots>
+	</EBill>
+	<EBillLists>
+		<EBillList>
+			<!-- 商品序号 -->
+			<GNo>1</GNo>
+			<!--商品货号  -->
+			<CopGNo>001</CopGNo>
+			<!--申报数量  -->
+			<Qty>100</Qty>
+			<!-- 申报单价 -->
+			<DecPrice>100</DecPrice>
+			<!-- 申报总价 -->
+			<DecTotal>10000</DecTotal>
+			<!-- 毛重 -->
+			<GrossWt>521.23</GrossWt>
+			<!--净重  -->
+			<NetWt>400.23</NetWt>
+			<!-- 备注 -->
+			<Nots></Nots>
+		</EBillList>
+		<EBillList>
+			<!-- 商品序号 -->
+			<GNo>1</GNo>
+			<!--商品货号  -->
+			<CopGNo>001</CopGNo>
+			<!--申报数量  -->
+			<Qty>100</Qty>
+			<!-- 申报单价 -->
+			<DecPrice>100</DecPrice>
+			<!-- 申报总价 -->
+			<DecTotal>10000</DecTotal>
+			<!-- 毛重 -->
+			<GrossWt>521.23</GrossWt>
+			<!--净重  -->
+			<NetWt>400.23</NetWt>
+			<!-- 备注 -->
+			<Nots></Nots>
+		</EBillList>
+	</EBillLists>
+  </Declaration>
+</Manifest>
